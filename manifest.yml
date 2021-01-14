@@ -1,0 +1,9 @@
+---
+applications:
+- name: skynet
+  # services:
+  # - mysql
+  buildpack: python_buildpack
+  memory: 256M
+  instances: 1
+  
